@@ -6,8 +6,8 @@ var App = {
 };
 
 $(function(){
-	console.log(" We are going")
-
+	console.log(" We are going");
+	App.router = new App.Routers.Main();
 	Backbone.history.start();
 
 });

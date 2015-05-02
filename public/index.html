@@ -8,14 +8,28 @@
   <script src="http://backbonejs.org/backbone-min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.0/handlebars.min.js"></script>
 
-   <script src="js/app.js"></script>
-   <script src="js/routers/app_router.js"></script>
+   <script src="app.js"></script>
+   <script src="js/routes/app_router.js"></script>
    <script src="js/collections/users.js"></script>
    <script src="js/models/user.js"></script>
    <script type="js/views/user_view.js"></script>
    <script type="js/views/users_view.js"></script>
+   <script type="js/views/sign_in_view.js"></script>
 </head>
 <body>
+  <h1> Welcome to Charitas </h1>
+  <h2> An app to help your money go to the right place </h2>
+
+  <template id= 'sign-in-view'>
+    <div id='sign-in-header'> Charitas</div>
+    <p>Sign In<p>
+    <button id = 'sign-in'>Sign In</button>
+    <p>Sign Up</p>
+    <button id = 'sign-up'>Sign Up</button>
+  </template>
+
+
+
 	
 </body>
 </html>
