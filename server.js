@@ -1,6 +1,7 @@
 var application_root = __dirname,
     express = require("express"),
     bodyParser = require("body-parser"),
+    bcrypt = require("bcrypt"),
     request = require("request"),
     logger = require("morgan"),
     session = require("express-session"),

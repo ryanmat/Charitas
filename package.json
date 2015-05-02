@@ -1,10 +1,11 @@
 {
-  "name": "charitypa",
+  "name": "charitas",
   "version": "1.0.0",
-  "description": "CharityPA is a personal assistant that helps the busy professional choose a charity matching their values and interests.",
-  "main": "index.js",
+  "description": "Disrupt NY Hackathon 2015 App",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
     "pg": "^4.3.0",
     "pg-hstore": "^2.3.2",
     "request": "^2.55.0",
-    "sequelize": "^2.1.0"
+    "sequelize": "2.0.5",
+    "util": "^0.10.3"
   }
 }
