@@ -2,6 +2,7 @@ var bodyParser = require("body-parser"),
     request = require("request"),
     logger = require("morgan"),
     session = require("express-session"),
+    express = require("express"),
     models = require("../models"),
     path = require("path"),
     User = models.users;

@@ -6,9 +6,11 @@ module.exports = function(sequelize, DataTypes) {
     email_address: DataTypes.STRING,
     password_digest: DataTypes.STRING
   }, {
+    underscored: true,
+
     classMethods: {
       associate: function(models) {
-        // associations can be defined here
+
       }
     }
   });
